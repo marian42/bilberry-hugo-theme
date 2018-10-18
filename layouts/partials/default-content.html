@@ -1,22 +1,10 @@
 <div class="content">
     <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
-    <div class="meta">
-        {{ if ( .Params.showDate | default true ) }}
-            <span class="date">{{ .PublishDate.Format (.Site.Params.DateFormat | default "2006-01-02") }}</span>
-        {{ end }}
-
-        {{ with .Params.categories }}
-            <span class="categories">
-                {{ range . }}
-                    <a href="{{ (print "/categories/" ( . | urlize)) | relLangURL }}">{{ . }}</a>
-                {{ end }}
-            </span>
-        {{ end }}
-
-        {{ with .Params.author }}
-            <span class="author"><a href="{{ (print "/author/" (. | urlize)) | relLangURL }}">{{ . }}</a></span>
-        {{ end }}
-    </div>
+    {{ if ( .Params.showDate | default true ) }}
+		<div class="meta">
+    		<span class="date">{{ .PublishDate.Format (.Site.Params.DateFormat | default "2006-01-02") }}</span>
+		</div>
+    {{ end }}
 
     {{ if or (.Scratch.Get "singlePage") (.Params.noSummary) }}
         {{ .Content }}

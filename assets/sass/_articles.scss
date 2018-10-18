@@ -26,34 +26,14 @@ article {
         }
 
         .meta {
-            text-transform: uppercase;
             font-style: normal;
             letter-spacing: 1px;
             margin-bottom: 2rem;
             font-size: 0.825em;
             color: $meta-text-color;
-            padding-bottom: 2.5%;
-            border-bottom: 3px double $meta-border-color;
-            margin-bottom: 4.5%;
 
             a {
                 font-style: normal;
-            }
-
-            span {
-                &:before {
-                    content: " / ";
-                    margin: 0 1rem;
-                }
-
-                &:first-child:before {
-                    margin: 0 !important;
-                    content: "" !important;
-                }
-
-                a:not(:last-child):after {
-                    content: ", ";
-                }
             }
         }
 
@@ -120,10 +100,12 @@ article {
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
-        background: transparentize($base-color, 0.90);
+		margin-top: -1em;
+        background: #ECECEC;
+		color: #6E6E6E;
 
         font-family: $article-footer-font;
-        font-size: 0.9em;
+        font-size: 0.8em;
 
         &.no-tags {
             flex-direction: row-reverse;
@@ -137,8 +119,7 @@ article {
             .links {
                 margin-left: 0.75em;
                 a:not(:last-child):after {
-                    content: " / ";
-                    color: $text-color !important;
+                    content: ", ";
                 }
             }
         }

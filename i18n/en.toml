@@ -7,6 +7,9 @@ other = "Authors"
 [tags]
 other = "Tags"
 
+[tagged]
+other = "tagged"
+
 [socialMedia]
 other = "Social Media"
 
