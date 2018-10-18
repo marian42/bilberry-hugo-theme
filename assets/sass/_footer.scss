@@ -4,7 +4,7 @@ footer {
     background-color: $footer-background-color;
 
     .container {
-        padding: 4rem 0;
+        padding: 2rem 0;
         display: flex;
         justify-content: space-between;
         font-size: 0.9em;
@@ -50,11 +50,17 @@ footer {
             }
         }
 
+		.left {
+			margin-top: 0.9em;
+			a {
+				margin-right: 1em;
+			}
+		}
+
         .right {
             .external-profiles {
 
                 width: 100%;
-                margin-bottom: 2em;
 
                 a {
                     font-size: 2em;
