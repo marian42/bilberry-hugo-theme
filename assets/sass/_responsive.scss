@@ -55,17 +55,9 @@
         }
     }
 
-    .bubble {
-        display: none !important;
-    }
-
     .container {
         width: 100%;
         padding: 0;
-    }
-
-    .container:before, .container:after {
-        display: none !important;
     }
 
     .main {
@@ -75,17 +67,9 @@
     .main article {
         margin: 0;
         width: 100%;
-
-        &:before, &:after {
-            display: none !important;
-        }
     }
 
-    .main #disqus_thread {
-        margin: 0 1.5em;
-    }
-
-    .main .paginator {
+	.main .paginator {
         margin: 1.5em;
         margin-top: 50px;
     }

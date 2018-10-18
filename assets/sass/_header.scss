@@ -10,18 +10,6 @@ header {
         flex-direction: row;
         align-items: center;
         height: 100%;
-
-        &:after {
-            content: "";
-            display: block;
-            position: absolute;
-            left: 50px;
-            top: 50px;
-            width: 2px;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.1);
-            z-index: 1;
-        }
     }
 
     .logo {
