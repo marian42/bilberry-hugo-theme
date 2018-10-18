@@ -8,7 +8,7 @@ other = "Authors"
 other = "Tags"
 
 [socialMedia]
-other = "Social media"
+other = "Social Media"
 
 [latestPosts]
 other = "Latest posts"
@@ -26,7 +26,7 @@ other = "Older posts"
 other = "Newer posts"
 
 [continueReading]
-other = "Continue reading"
+other = "continue reading"
 
 [otherLanguages]
 other = "Other languages"
@@ -34,4 +34,3 @@ other = "Other languages"
 [readingTime]
 one = "1 min read"
 other = "{{.Count}} min read"
-

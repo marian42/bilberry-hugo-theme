@@ -14,8 +14,6 @@ Das Theme beinhaltet viele Features wie bspw.:
 - Responsive Design - optimiert für Desktop und mobile Geräte
 - Volle Unterstützung für Übersetzungen (en, de, fr, ru, es bereits integriert!)
 - Volle Unterstützung für mehrsprachige Seiten
-- Verschiedene Post-Types (`article`, `audio`, `code`, `gallery`, `link`, `page`, `picture`, `quote`, `video`)
-    - Einfache Konfiguration und Erweiterung um persönliche Typen
 
 
 *Dieses Theme ist eine Adaptopn des Lingonberry Themes von [Anders Norén](http://www.andersnoren.se/teman/lingonberry-wordpress-theme/)*
