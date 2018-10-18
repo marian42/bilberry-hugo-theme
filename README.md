@@ -25,7 +25,6 @@ If you like this theme and/or use it for commercial purposes, please support me!
     - [Post Types](#post-types)
     - [Pages and External Links](#pages-and-external-links)
     - [Manual Summary Breaks](#manual-summary-breaks)
-    - [Disqus Comments](#disqus-comments)
     - [Responsive Design](#responsive-design)
     - [Automatic Image Resizing](#automatic-image-resizing)
     - [Permanent Top Navigation](#permanent-top-navigation)
@@ -164,13 +163,6 @@ Just write your content and if you want to break use the code snippet to tell Hu
 - You want to display the full article without a _Continue reading_ link <br>
 In this case, set the option `noSummary: true` in the header area (Front Matter) of your `.md` file.
 
-
-### Disqus comments
-If you want to enable the functionality for your users to write comments below your articles, you can register for a free [Disqus](https://disqus.com) account.
-
-Just create a new site and copy your site's short name to the `config.toml` file at `disqusShortname`.
-
-You can manage and moderate the comments either on your website or at the disqus management panel.
 
 ### Responsive Design
 Bilberry is optimized for desktop and mobile devices (tablets and smartphones).

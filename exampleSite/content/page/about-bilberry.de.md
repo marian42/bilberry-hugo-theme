@@ -7,8 +7,6 @@ Bilberry ist ein Premium Theme für den [Hugo Static Website Builder](https://go
 
 Das Theme beinhaltet viele Features wie bspw.:
 
-- Integration für die [Algolia-Suche](https://algolia.com)
-- Integration für [Disqus Kommentare](https://disqus.com)
 - Gravatar-Integration oder eigenes Profilbild im Header
 - Tastaturunterstützung für die Suche (`s` Taste drücken, etwas Schreiben, per `enter` bestätigen oder mit `esc` abbrechen)
 - Responsive Design - optimiert für Desktop und mobile Geräte

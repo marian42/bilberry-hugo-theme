@@ -11,9 +11,6 @@ DefaultContentLanguage = "en"
 # Enable / Disable Google Analytics statistics for your site
 googleAnalytics = ""
 
-# Enable / Disable comments on the articles via Disqus.
-disqusShortname = "bilberry-hugo-theme"
-
 [params]
   # Favicon for the browser's favorites and tabs
   favicon = "" # set a favicon icon
@@ -144,4 +141,3 @@ disqusShortname = "bilberry-hugo-theme"
 [outputs]
   home = [ "HTML", "JSON", "RSS" ]
   page = [ "HTML" ]
-
