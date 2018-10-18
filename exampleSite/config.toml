@@ -8,9 +8,6 @@ enableRobotsTXT = true
 # Change to one of your content languages definded at the end.
 DefaultContentLanguage = "en"
 
-# Enable / Disable Google Analytics statistics for your site
-googleAnalytics = ""
-
 [params]
   # Favicon for the browser's favorites and tabs
   favicon = "" # set a favicon icon
