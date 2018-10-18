@@ -78,30 +78,6 @@
 
         {{ partial "footer" . }}
 
-        {{ if and (isset .Site.Params "enable_mathjax") (eq .Site.Params.enable_mathjax true) }}
-        {{ partial "mathjax" . }}
-        {{ end }}
-
-        {{ $js := resources.Get "js/externalDependencies.js" }}
-        {{ $secureJS := $js | resources.Fingerprint "md5" }}
-        <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
-
-        {{ $jsTemplate := resources.Get "js/theme.js" }}
-        {{ $secureJS := $jsTemplate | resources.ExecuteAsTemplate "js/theme.js" . | fingerprint "md5" }}
-        <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
-
-        <script>
-            $(".moment").each(function() {
-                $(this).text(
-                    moment( $(this).text() )
-                        .locale( {{ .Site.Language.Lang }} )
-                        .format('LL')
-                );
-            });
-
-            $(".footnote-return sup").html({{ i18n "footnoteReturnText" }});
-        </script>
-
         {{ if isset .Site.Params "js_modules" }}
             {{ range .Site.Params.js_modules }}
                 <script src="{{ . | absURL }}" type="application/javascript"></script>
