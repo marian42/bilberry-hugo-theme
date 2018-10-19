@@ -22,21 +22,7 @@ DefaultContentLanguage = "en"
   # Description and meta data for the search engines
   author = "Lednerb"
   description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
-
-  # How many articles should be displayed at once?
-  paginate = 7
-
-  # Enable / Disable MathJax
-  enable_mathjax    = false
-
-  # Enable / Disable algolia search
-  algolia_search    = true
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
-  algolia_indexName = "default-content"
-    # Set this option to false if you want to search within all articles in all languages at once
-    algolia_currentLanguageOnly = true
+  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,shortcuts"
 
   # Style configuration
     # set the width of your site's content
@@ -55,15 +41,6 @@ DefaultContentLanguage = "en"
     # set an path to the image file you want to use | overwrites gravatar
     customImage = ""
 
-    # define the icon you want to use for the overlay for the customImage or gravatar.
-    overlayIcon = "fa-home"
-
-    # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
-
-    # show a language chooser in the header
-    showHeaderLanguageChooser = true
-
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
     # pinnedPost = "/content/github/"
@@ -75,9 +52,6 @@ DefaultContentLanguage = "en"
     # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
     dateFormat = "January 2, 2006"
 
-    # Footer configuration
-    showFooter = true
-
     # How many articles should be displayed at latest posts in the footer?
     # Set to -1 to hide the 'Latest Posts' column
     amountLatestPostsInFooter = 7
@@ -85,9 +59,6 @@ DefaultContentLanguage = "en"
     # How many categories should be displayed in the footer section?
     # Set to -1 to hide the 'Categories' column
     amountCategoriesInFooter = 7
-
-    # show a language chooser in the header
-    showFooterLanguageChooser = true
 
     # social media profile urls for the footer links
     showSocialMedia = true
@@ -103,15 +74,6 @@ DefaultContentLanguage = "en"
     github     = "https://github.com/Lednerb"
     xing       = ""
     linkedin   = ""
-
-    # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
-
 
 # customize your available languages for your multi-langual site
 # or delete the [Languages] blog to use the theme with only one supported language

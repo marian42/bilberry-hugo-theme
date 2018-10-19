@@ -52,8 +52,6 @@
         {{ $style := $combined | toCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-        {{ partial "twitter-card" . }}
-
         {{ if isset .Site.Params "css_modules" }}
             {{ range .Site.Params.css_modules }}
                 <link rel="stylesheet" href="{{ . | absURL }}">
