@@ -1,20 +1,19 @@
-name = "Bilberry Hugo Theme"
+name = "Barebones Bilberry Hugo Theme"
 license = "MIT"
-licenselink = "https://github.com/Lednerb/bilberry-hugo-theme/blob/master/LICENSE.md"
-description = "Bilberry is a premium hugo theme with a lot of nice features. It is an adaption and optimization for hugo from the Lingonberry WordPress theme by Anders Norén."
-homepage = "https://lednerb.github.io/bilberry-hugo-theme/"
-tags = ["blog", "personal", "responsive", "algolia", "font awesome", "pages", "posts", "multilingual", "highlight.js", "syntax highlighting", "premium", "shortcuts"]
-features = ["i18n", 'multilangual', 'blog', 'comments', "highlight.js", "syntax highlighting", "premium theme", "shortcuts"]
+licenselink = "https://github.com/marian42/bilberry-hugo-theme"
+description = "Barebones Bilberry is a simple hugo theme with few features. It is an adaption and simplification of the Bilberry Hugo Theme by Lednerb."
+homepage = "https://github.com/marian42/bilberry-hugo-theme"
+tags = ["blog", "personal", "responsive", "font awesome", "pages", "posts", "highlight.js", "syntax highlighting"]
+features = []
 min_version = "0.46"
 
-theme_version = "1.10.0"
+theme_version = "1.0.0"
 
 [author]
   name = "Lednerb | Sascha Brendel"
   homepage = "https://sascha-brendel.de"
 
-# If porting an existing theme
 [original]
-  name = "Lingonberry"
-  homepage = "http://www.andersnoren.se/teman/lingonberry-wordpress-theme/"
-  repo = "https://wordpress.org/themes/lingonberry/"
+  name = "Lednerb | Sascha Brendel"
+  homepage = "https://sascha-brendel.de"
+  repo = "https://github.com/Lednerb/bilberry-hugo-theme"
