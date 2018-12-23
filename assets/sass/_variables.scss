@@ -6,9 +6,9 @@ $site-width: {{ .Site.Params.SiteWidth | default "800px" }};
 
 // Define your fonts.
 // If you want to import new fonts, set them in /src/css/fonts.css
-$headline-font: 'Comfortaa', sans-serif;
-$content-font: 'Open Sans', sans-serif;
-$article-footer-font: 'Roboto Mono', monospace;
+$headline-font: sans-serif;
+$content-font: sans-serif;
+$article-footer-font: sans-serif;
 
 // main colors
 $page-background-color: #f1f1f1;
