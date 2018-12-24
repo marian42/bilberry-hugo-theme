@@ -1,45 +1,22 @@
 header {
-    background-color: $base-color;
-    color: $header-text-color;
-    height: 20rem;
+    height: 100px;
     display: flex;
-    align-items: center;
+    background-color: $base-color;
+	background-image: url(/bg.png);
+	background-position: calc(50%) top;
+    color: $header-text-color;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
 
     .container {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        height: 100%;
+		margin-top: 20px;
     }
 
     .logo {
-        font-size: 40pt !important;
-        background-color: $logo-color;
-        border-radius: 50%;
-        width: 90px;
-        height: 90px;
-        border: 5px $logo-color solid;
         position: relative;
-        color: $logo-color;
         z-index: 4;
-        display: flex;
         align-items: center;
-        justify-content: center;
-
-        a {
-            border: 0;
-        }
-
-        &:hover {
-            .overlay {
-                opacity: 1;
-            }
-        }
-
-        img {
-            max-width: 100%;
-            border-radius: 50%;
-        }
     }
 
     .titles {

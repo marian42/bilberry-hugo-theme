@@ -4,6 +4,8 @@
 
 .bilberry-hugo-theme {
     background-color: $page-background-color;
+	background-image: url(/grid.png);
+	background-position: center top;
     font-family: $content-font;
     color: $text-color;
     font-size: 1.6em;
