@@ -8,10 +8,13 @@ article {
 
     .content {
         padding: 2em;
+		text-align: justify;
 
-        h3 {
-            font-size: 1.75em;
+        .article-headline {
+            font-size: 1.8em;
             margin-bottom: 0.25em;
+			margin-top: 0;
+			font-weight: normal;
 
             a {
 				color: inherit;
@@ -19,6 +22,38 @@ article {
                 font-style: normal;
             }
         }
+
+		h1, h2, h3, h4, h5 {
+			font-weight: bold;
+			text-align: left;
+			margin-top: 1.2em;
+		}
+
+
+	    h1 {
+	        font-size: 1.6em;
+	    }
+
+
+		h2 {
+	        font-size: 1.4em;
+	    }
+
+
+		h3 {
+	        font-size: 1.2em;
+	    }
+
+
+		h4 {
+	        font-size: 1.1em;
+	    }
+
+
+		p {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
 
         .meta {
             font-style: normal;
@@ -75,14 +110,10 @@ article {
             }
         }
 
-	img {
+	img, video {
             max-width: 100%;
-			margin-bottom: 8px;
-        }
-	video {
-	        max-width: 100%;
-	    }
-  }
+    }
+}
 
 
     .footer {
