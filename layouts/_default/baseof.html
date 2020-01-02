@@ -49,8 +49,8 @@
         <link rel="icon" type="image/png" href="{{ "/favicon-16x16.png" | absURL }}" sizes="16x16">
 
         {{ if .OutputFormats.Get "RSS" }}
-        <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-        <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+        <link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+        <link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
         {{ end }}
         
         {{ $variables := resources.Get "sass/_variables.scss" }}
