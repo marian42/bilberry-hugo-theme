@@ -1,5 +1,5 @@
 <div class="content">
-    <h1 class="article-headline"><a href="{{ .URL }}">{{ .Title }}</a></h1>
+    <h1 class="article-headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
     {{ if ( .Params.showDate | default true ) }}
 		<div class="meta">
     		<span class="date">{{ .PublishDate.Format (.Site.Params.DateFormat | default "2006-01-02") }}</span>
@@ -12,7 +12,7 @@
         {{ .Summary }}
 
         {{ if .Truncated }}
-            <a href="{{ .URL }}" class="more">continue reading</a>
+            <a href="{{ .RelPermalink }}" class="more">continue reading</a>
         {{ end }}
     {{ end }}
 </div>
